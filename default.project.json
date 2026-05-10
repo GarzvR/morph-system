@@ -11,11 +11,21 @@
       }
     },
     "ServerScriptService": {
-      "$path": "src/server"
+      "Init": {
+        "$path": "src/server/Init.server.luau"
+      },
+      "Services": {
+        "$path": "src/server/Services"
+      }
     },
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "$path": "src/client"
+        "Init": {
+          "$path": "src/client/Init.client.luau"
+        },
+        "Controllers": {
+          "$path": "src/client/Controllers"
+        }
       }
     }
   }

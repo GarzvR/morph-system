@@ -1,0 +1,9 @@
+[package]
+name = "garzvr/morph-system"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+
+[dev-dependencies]
